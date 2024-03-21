@@ -5,15 +5,11 @@ function Header (){
 
     return (
         <header className="header">
-            
-            <div className="logo">
-                <img src="" alt="logo" />
-            </div>
 
             <nav>
                 <ul>
-                    <li><a href="">My Projects</a></li>
-                    <li><a href="">Contact Me</a></li>
+                    <li><a href="#projects">My Projects</a></li>
+                    <li><a href="#footer">Contact Me</a></li>
                 </ul>
             </nav>
             
