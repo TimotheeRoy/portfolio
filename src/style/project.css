@@ -1,9 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP&family=Tauri&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tauri&display=swap');
+
 .project-container{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 50%;
+    padding: 0;
+    margin: 0;
+}
+
+h2{
+    font-family: "Tauri",sans-serif;
+}
+
+p{
+    font-family: "Noto Serif JP", serif;
+    text-align: center;
 }
 
 .project-img{

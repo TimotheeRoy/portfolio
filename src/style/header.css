@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP&family=Tauri&display=swap');
+
 .header{
     display: flex;
     align-items: center;
@@ -10,11 +12,18 @@ ul{
 }
 
 li{
-    margin: 0rem 10rem 0rem 10rem;
+    padding: 1rem 5rem 1rem 5rem;
     font-size: 1.5rem;
+    font-family: "Noto Serif JP", serif;
+}
+
+li:hover{
+    cursor: pointer;
+    transform: rotate(1turn);
+    transition: transform 1s ease;
 }
 
 a{
-    color: black;
+    color: unset;
     text-decoration: none;
 }

@@ -12,6 +12,15 @@
     transition: filter 0.3s;
 }
 
+.dark{
+    fill: white;
+}
+
 .icon-container :hover{
     fill: pink;
+}
+
+svg{
+    background-color: transparent;
+    border-radius: 20px;
 }

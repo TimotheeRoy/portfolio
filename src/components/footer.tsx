@@ -1,16 +1,19 @@
 import "../style/footer.css";
 import cv from "../assets/TimotheeRoy.pdf";
 
-function footer() {
+interface footer {
+    isDark: boolean;
+}
+
+function footer({ isDark }: footer) {
     return (
         <div className="footer">
             <a
-                className="icon-container"
+                className={isDark ? "icon-container dark" : "icon-container"}
                 href="https://github.com/TimotheeRoy"
                 target="_blank"
             >
                 <svg
-                    className="icon"
                     xmlns="http://www.w3.org/2000/svg"
                     width="48"
                     height="48"
@@ -21,12 +24,11 @@ function footer() {
             </a>
 
             <a
-                className="icon-container"
+                className={isDark ? "icon-container dark" : "icon-container"}
                 href="https://www.linkedin.com/in/timoth%C3%A9e-roy-39752b271/"
                 target="_blank"
             >
                 <svg
-                    className="icon"
                     xmlns="http://www.w3.org/2000/svg"
                     width="48"
                     height="48"
@@ -36,7 +38,11 @@ function footer() {
                 </svg>
             </a>
 
-            <a className="icon-container" target="_blank" href={cv}>
+            <a
+                className={isDark ? "icon-container dark" : "icon-container"}
+                target="_blank"
+                href={cv}
+            >
                 <svg
                     width="48"
                     height="48"
