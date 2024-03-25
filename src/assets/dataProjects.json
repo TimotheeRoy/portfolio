@@ -1,16 +1,17 @@
 [
-    {"name": "Le Comptoir",
-    "description" : "Un site de vente en ligne de meubles",
-    "img":"../assets/comptoir.png",
-    "id" : 1
+    {
+        "name": "Le Comptoir",
+        "description": "Un site de vente en ligne de meubles en React et Node.js dans le cadre d'un projet de groupe",
+        "repo": "https://github.com/TimotheeRoy/projet-collectif-vente-de-meuble-LeComptoir"
     },
-    {"name": "Sober'up",
-    "description" : "Un extension Chrome sur le thème de dry january",
-    "img":"../assets/getSober.png",
-    "id" : 2
-    },{"name": "Quizzz",
-    "description" : "Une application de quiz React avec des thèmes au choix",
-    "img":"../assets/quizzz.png",
-    "id" : 3   
-}
+    {
+        "name": "Sober'up",
+        "description": "Un extension Chrome sur le dry january",
+        "repo": "https://github.com/TimotheeRoy/extension-navigateur-Sober-up"
+    },
+    {
+        "name": "Quizzz",
+        "description": "Une application de quiz React avec des thèmes au choix",
+        "repo": "https://github.com/TimotheeRoy/QuizApp"
+    }
 ]

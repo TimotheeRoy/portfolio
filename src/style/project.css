@@ -5,3 +5,19 @@
     align-items: center;
     width: 50%;
 }
+
+.project-img{
+    height: 20rem;
+    border-radius: 20px;
+    margin : 1rem;
+    background-color:darkolivegreen;
+    filter: saturate(30%) hue-rotate(-30deg);
+    transition: 0.6s all;
+}
+
+.project-img:hover {
+    filter: none;
+    translate: 0 -0.5rem;
+    rotate: 3deg;
+    cursor: pointer;
+}

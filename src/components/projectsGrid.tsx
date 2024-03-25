@@ -1,20 +1,21 @@
-import Project from "./project"
-import projects from "../assets/dataProjects.json"
+import Project from "./project";
+import projects from "../assets/dataProjects.json";
 
-import '../style/projectGrid.css'
+import "../style/projectGrid.css";
 
-function ProjectsGrid () {
-
-    return(
+function ProjectsGrid() {
+    return (
         <div className="grid-container">
-            {projects.map(proj => <Project 
-            key={proj.id}
-            name={proj.name} 
-            description={proj.description} 
-            img={proj.img} />)}
+            {projects.map((proj, i) => (
+                <Project
+                    key={i}
+                    name={proj.name}
+                    description={proj.description}
+                    repo={proj.repo}
+                />
+            ))}
         </div>
-    )
+    );
 }
 
-
-export default ProjectsGrid
+export default ProjectsGrid;

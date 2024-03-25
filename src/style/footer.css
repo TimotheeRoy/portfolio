@@ -1,5 +1,17 @@
 .footer{
+    width: 100%;
+    bottom: 0;
+    padding: 1rem 1rem 3rem 1rem;
     display: flex;
-    justify-content: space-evenly;
-    margin-bottom: 4rem;
+    position: fixed;
+    justify-content: space-around;
+}
+
+.icon-container{
+    fill: black;
+    transition: filter 0.3s;
+}
+
+.icon-container :hover{
+    fill: pink;
 }
