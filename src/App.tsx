@@ -1,4 +1,3 @@
-import Header from "./components/header";
 import Footer from "./components/footer";
 import ProjectsGrid from "./components/projectsGrid";
 
@@ -13,9 +12,8 @@ function App() {
             <div className={darkMode ? "dark" : "light"}>
                 <section id="top">
                     <div className="header">
-                        <Header />
                         <button
-                            className="btn"
+                            className="btn-dark"
                             onClick={() => setDarkMode(!darkMode)}
                         >
                             {darkMode ? "🌙" : "☀️"}
@@ -29,6 +27,10 @@ function App() {
                             <br />
                             I'm currently studying web developement and more ...
                         </p>
+
+                        <a className="move-btn" href="#projects">
+                            👇
+                        </a>
                     </div>
                 </section>
 
