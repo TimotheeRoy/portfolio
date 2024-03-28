@@ -1,4 +1,4 @@
-.footer{
+.footer {
     width: 100%;
     bottom: 0;
     padding: 1rem 1rem 3rem 1rem;
@@ -7,20 +7,24 @@
     justify-content: space-around;
 }
 
-.icon-container{
+.icon-container {
     fill: black;
     transition: filter 0.3s;
 }
 
-.dark{
+.icon-container-dark {
     fill: white;
 }
 
-.icon-container :hover{
-    fill: pink;
+.icon-container :hover {
+    fill: #E5E500;
 }
 
-svg{
+.icon-container-dark :hover {
+    fill: #E5E500;
+}
+
+svg {
     background-color: transparent;
     border-radius: 20px;
 }

@@ -1,11 +1,13 @@
 import Footer from "./components/footer";
 import ProjectsGrid from "./components/projectsGrid";
+import { ReactTyped } from "react-typed";
 
-import "./App.css";
 import { useState } from "react";
 
+import "./App.css";
+
 function App() {
-    const [darkMode, setDarkMode] = useState(false);
+    const [darkMode, setDarkMode] = useState(true);
 
     return (
         <>
@@ -21,16 +23,28 @@ function App() {
                     </div>
 
                     <div className="pres">
-                        <h1>Hi ! I'm Tim</h1>
-                        <p>
-                            I write some code and tinker with computers <br />{" "}
-                            <br />
-                            I'm currently studying web developement and more ...
-                        </p>
+                        <ReactTyped
+                            className="greetings"
+                            strings={["Hi ! I'm Tim"]}
+                            typeSpeed={60}
+                            style={{ fontFamily: "tauri" }}
+                        />
 
+                        <ReactTyped
+                            className="about-me"
+                            strings={[
+                                "I write some code and tinker with computers",
+                                "I'm currently studying web developement and more ...",
+                            ]}
+                            typeSpeed={90}
+                            loop
+                            style={{ fontFamily: "Noto Serif JP" }}
+                        />
+
+                        {/* 
                         <a className="move-btn" href="#projects">
-                            👇
-                        </a>
+                            My Projects
+                        </a> */}
                     </div>
                 </section>
 

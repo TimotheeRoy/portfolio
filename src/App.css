@@ -1,5 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Tauri&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP&family=Tauri&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Tauri&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+JP&family=Tauri&display=swap");
+
 @keyframes upAndDown {
     0% {
         translate: 0 0;
@@ -12,73 +13,75 @@
     }
 }
 
-.pres{
-    display: flex;
-    flex-direction: column;
-    align-items:center ;
-    justify-content:flex-start ;
-    height: 90%;
-    margin-top: 10rem;
-}
-
-h1{
-    font-family: "Tauri", sans-serif;
-}
-
-.pres > p {
-    margin-bottom: 10%;
-    text-align: center;
-    font-family: "Noto Serif JP", serif;
-}
-
-.header{
+.header {
     height: 10%;
 }
 
-#top{
+#top {
     height: 100vh;
 }
 
-.endpoint{
-    height: 10rem;
-    display: flex;
-    justify-content: center;
-    align-items: end ;
-}
-
-.endpoint > p {
-    padding-left: 3rem;
-}
-
-.btn-dark{
+.btn-dark {
     border: none;
     background-color: transparent;
     font-size: 1.5em;
     position: fixed;
     left: 90vw;
+    top: 2rem;
 }
 
-.btn-dark:hover{
+.btn-dark:hover {
     cursor: pointer;
     transform: rotate(1turn);
     transition: transform 1s ease;
-}   
+}
 
 .dark {
     background-color: #1e1e21;
-    color: white;
+    color: #fafaf1;
 }
 
 .light {
     background-color: #fafaf1;
-    color: black;
+    color: #1e1e21;
 }
 
-.move-btn{
+.move-btn {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 5rem;
     font-size: 1.5rem;
     animation: upAndDown 2s ease-in-out infinite;
+    text-decoration: none;
+    color: unset;
+}
+
+.pres {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 90%;
+    margin-top: 10rem;
+    gap: 3rem;
+}
+
+.greetings {
+    font-size: 4rem;
+}
+
+.about-me {
+    font-size: 1.5rem;
+}
+
+.endpoint {
+    height: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.endpoint > p {
+    padding-left: 3rem;
 }
