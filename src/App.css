@@ -13,6 +13,15 @@
     }
 }
 
+@keyframes fade {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
 .header {
     height: 10%;
 }
@@ -55,6 +64,10 @@
     animation: upAndDown 2s ease-in-out infinite;
     text-decoration: none;
     color: unset;
+}
+
+.fractal {
+    height: 25vh;
 }
 
 .pres {

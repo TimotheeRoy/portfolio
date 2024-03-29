@@ -1,14 +1,23 @@
 import Footer from "./components/footer";
 import ProjectsGrid from "./components/projectsGrid";
+import SierpinskiTriangle from "./components/fractal";
 import { ReactTyped } from "react-typed";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 import "./App.css";
 
 function App() {
     const [darkMode, setDarkMode] = useState(true);
+    const [count, setCount] = useState(1);
 
+    useEffect(() => {
+        setTimeout(() => {
+            setCount(count + 1);
+        }, 2000);
+    }, [count]);
+
+    if (count > 5) setCount(1);
     return (
         <>
             <div className={darkMode ? "dark" : "light"}>
@@ -41,10 +50,12 @@ function App() {
                             style={{ fontFamily: "Noto Serif JP" }}
                         />
 
-                        {/* 
-                        <a className="move-btn" href="#projects">
-                            My Projects
-                        </a> */}
+                        <div className="fractal">
+                            <SierpinskiTriangle
+                                depth={count}
+                                isDark={darkMode}
+                            />
+                        </div>
                     </div>
                 </section>
 
