@@ -88,8 +88,15 @@
     font-size: 1.5rem;
 }
 
+#projects{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
 .endpoint {
-    height: 10rem;
+    height: 10vh;
     display: flex;
     justify-content: center;
     align-items: end;

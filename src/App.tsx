@@ -60,7 +60,7 @@ function App() {
                 </section>
 
                 <section id="projects">
-                    <ProjectsGrid />
+                    <ProjectsGrid isDark={darkMode} />
                 </section>
 
                 <div id="footer">

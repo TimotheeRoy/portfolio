@@ -1,3 +1,4 @@
-find something funny to add at the top
-add more projects : pico and deploy projects in addition to github link
-change placement into grid
+fix transition between triangle
+add more projects and deploy them
+
+https://portfolio-green-seven-74.vercel.app/

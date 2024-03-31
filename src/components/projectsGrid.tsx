@@ -3,7 +3,11 @@ import projects from "../assets/dataProjects.json";
 
 import "../style/projectGrid.css";
 
-function ProjectsGrid() {
+interface ProjectsGridProps {
+    isDark: boolean;
+}
+
+function ProjectsGrid({isDark} : ProjectsGridProps) {
     return (
         <div className="grid-container">
             {projects.map((proj, i) => (
@@ -12,6 +16,8 @@ function ProjectsGrid() {
                     name={proj.name}
                     description={proj.description}
                     repo={proj.repo}
+                    demo={proj.demo}
+                    isDark={isDark}
                 />
             ))}
         </div>

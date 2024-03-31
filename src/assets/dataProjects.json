@@ -2,16 +2,25 @@
     {
         "name": "Le Comptoir",
         "description": "Un site de vente en ligne de meubles en React et Node.js",
-        "repo": "https://github.com/TimotheeRoy/projet-collectif-vente-de-meuble-LeComptoir"
+        "repo": "https://github.com/TimotheeRoy/projet-collectif-vente-de-meuble-LeComptoir",
+        "demo": ""
     },
     {
         "name": "Sober'up",
         "description": "Un extension Chrome sur le dry january qui aide à rester sobre grâce à plusieurs features",
-        "repo": "https://github.com/TimotheeRoy/extension-navigateur-Sober-up"
+        "repo": "https://github.com/TimotheeRoy/extension-navigateur-Sober-up",
+        "demo": ""
     },
     {
         "name": "Quizzz",
         "description": "Une application de quiz React avec des thèmes au choix",
-        "repo": "https://github.com/TimotheeRoy/QuizApp"
+        "repo": "https://github.com/TimotheeRoy/QuizApp",
+        "demo": "https://quiz-app-topaz-theta.vercel.app/"
+    },
+    {
+        "name": "Pirates of the Pixels",
+        "description": "Un endless runner fait avec Pico 8",
+        "repo": "",
+        "demo": "https://github.com/TimotheeRoy/Pirates-of-the-Pixels/blob/main/pirates.p8.png"
     }
 ]
