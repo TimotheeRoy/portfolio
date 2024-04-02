@@ -1,6 +1,5 @@
 import Footer from "./components/footer";
 import ProjectsGrid from "./components/projectsGrid";
-import SierpinskiTriangle from "./components/fractal";
 import { ReactTyped } from "react-typed";
 
 import { useEffect, useState } from "react";
@@ -50,12 +49,14 @@ function App() {
                             style={{ fontFamily: "Noto Serif JP" }}
                         />
 
-                        <div className="fractal">
+                        <div className="cool-stuff">
+                        </div>
+                        {/* <div className="fractal">
                             <SierpinskiTriangle
                                 depth={count}
                                 isDark={darkMode}
                             />
-                        </div>
+                        </div> */}
                     </div>
                 </section>
 
