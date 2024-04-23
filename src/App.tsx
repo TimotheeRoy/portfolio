@@ -1,6 +1,5 @@
 import Footer from "./components/footer";
 import ProjectsGrid from "./components/projectsGrid";
-import CoolStuff from "./components/coolStuff";
 import { ReactTyped } from "react-typed";
 
 import { useEffect, useState } from "react";
@@ -49,10 +48,6 @@ function App() {
                             loop
                             style={{ fontFamily: "Noto Serif JP" }}
                         />
-
-                        {/* <div className="cool-stuff">
-                            <CoolStuff />
-                        </div> */}
                     </div>
                 </section>
 
