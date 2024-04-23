@@ -1,5 +1,6 @@
 import Footer from "./components/footer";
 import ProjectsGrid from "./components/projectsGrid";
+import CoolStuff from "./components/coolStuff";
 import { ReactTyped } from "react-typed";
 
 import { useEffect, useState } from "react";
@@ -26,7 +27,7 @@ function App() {
                             className="btn-dark"
                             onClick={() => setDarkMode(!darkMode)}
                         >
-                            {darkMode ? "🌙" : "☀️"}
+                            {!darkMode ? "🌙" : "☀️"}
                         </button>
                     </div>
 
@@ -49,13 +50,8 @@ function App() {
                             style={{ fontFamily: "Noto Serif JP" }}
                         />
 
-                        <div className="cool-stuff">
-                        </div>
-                        {/* <div className="fractal">
-                            <SierpinskiTriangle
-                                depth={count}
-                                isDark={darkMode}
-                            />
+                        {/* <div className="cool-stuff">
+                            <CoolStuff />
                         </div> */}
                     </div>
                 </section>
